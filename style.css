@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#Box1 {
+    min-height: 55vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(https://source.unsplash.com/1400x400/?nature,laptop);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+#Box12 {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    bottom: 20%;
+    padding: 0 10vw;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#Box12 h1 {
+    font-size: 6vw;
+}
+
+#textright {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+#Box2 {
+    min-height: 45vh;
+    width: 100%;
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: space-around;
+}
+
+#A1 {
+    min-height: 45vh;
+    width: 25%;
+    background-image: url(https://source.unsplash.com/500x400/?music,laptop);
+    background-size: cover;
+    background-position: top;
+
+}
+
+#A2 {
+    min-height: 45vh;
+    width: 25%;
+    background-image: url(https://source.unsplash.com/500x400/?macbook,rain);
+    background-size: cover;
+    background-position: center;
+  
+}
+
+#A32 {
+    height: 40%;
+    width: 100%;
+    background-color: gray;
+}
+
+#A32top {
+    width: 100%;
+    height: 60%;
+    background-image: url(https://source.unsplash.com/500x400/?music,rain);
+    background-size: cover;
+    background-position: center;
+}
+
+#A4 {
+    height: 45vh;
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.notifi {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.notifi #photo {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 20px;
+}
